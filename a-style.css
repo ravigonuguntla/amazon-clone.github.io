@@ -1,0 +1,229 @@
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height:60px;
+    background-color: rgb(0, 85, 90);
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+    cursor:pointer;
+}
+.main-div-1{
+    width:17%;
+    height:55px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:transparent;
+}
+.main-div-2{
+    width:66%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    background-color:transparent;
+}
+.main-div-3{
+    width:17%;
+    height:55px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:transparent;
+}
+.sub-div-1{
+    width:45%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: transparent;
+
+}
+.logo{
+    background: url("images/logo2.png");
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+}
+.sub-div-2{
+    width:40%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    padding-right:20px;
+}
+.nav-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-icon{
+    font-size:25px;
+}
+.nav-loc-para{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(184, 179, 174);
+}
+.sub-div-3{
+    width:8%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.nav-search-select{
+    width:100%;
+    height:40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(174, 175, 175);
+}
+.sub-div-4{
+    width:70%;
+    height:84px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.nav-search-input{
+    width:100%;
+    height:34px;
+}
+.sub-div-5{
+    width:8%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.nav-search-icon{
+    width:100%;
+    height:39px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 198, 198);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+    color:black;
+    font-size: 25px;
+}
+.sub-div-6{
+    width:40%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.nav-return{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:rgb(184, 179, 174);
+}
+.sub-div-7,.nav-cart{
+    width:40%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.nav-cart-icon{
+    font-size: 40px;
+}
+
+
+
+.nav-2{
+    height:39px;
+    width:100%;
+    background-color: rgba(0, 86, 90, 0.808);
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.menu-icon{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.menu-text{
+    color:white;
+    display: flex;
+    align-items:center;
+}
+
+
+.li {
+    display:inline;
+    margin:5px;
+    
+}
+.li a{
+    text-decoration:none;
+    color:white;
+}
+.nav-2-l-text{
+    color:white;
+    padding-right:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.curosal{
+    width:100%;
+    background: url("images/curosal1.jpg");
+    height: 500px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.curosal-text{
+    margin-top:30px;
+    width:95%;
+    height:40px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.curosal-text a{
+    text-decoration: none;
+    color:rgb(20, 86, 112);
+}
