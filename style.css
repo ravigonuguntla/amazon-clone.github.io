@@ -29,7 +29,7 @@ body{
     background-color:transparent;
 }
 .main-div-2{
-    width:66%;
+    width:60%;
     height:50px;
     display:flex;
     align-items: center;
@@ -45,7 +45,7 @@ body{
     background-color:transparent;
 }
 .sub-div-1{
-    width:40%;
+    width:60%;
     height:50px;
     display:flex;
     align-items: center;
@@ -55,9 +55,9 @@ body{
 
 }
 .logo{
-    background: url("images/logo2.png");
+    background: url("a-images/logo.png");
     background-color: transparent;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width:100%;
     height:100%;
@@ -209,11 +209,10 @@ body{
     align-items: center;
 }
 
-
-
+/*    curosal    */
 .curosal{
     width:100%;
-    background: url("images/curosal1.jpg");
+    background: url("a-images/curosal.jpg");
     height: auto;
     background-size: contain;
     background-repeat: no-repeat;
@@ -222,6 +221,7 @@ body{
     justify-content: flex-start;
     align-items:center;
     padding-top:200px;
+
 }
 .curosal-text{
     margin-top:30px;
@@ -241,10 +241,117 @@ body{
 
 
 
+/*    products styles     */
+
+.r1,.r2{
+    width:100%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.c1,.c2{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+}
+.text{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.gaming,.deals,.toys,.refresh{
+    background-color: white;
+    padding-left:18px;
+    height:400px;
+    width:22%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.row-1,.row-2{
+    display:flex;
+    align-items: center;
+    width:100%;
+    overflow: hidden;
+    justify-content:space-around;
+    height:420px;
+}
+.row-3,.row-4{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 281px;
+    margin-bottom: 15px;
+}
+.img-rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:300px;
+    height:303px;
+}
+
+.container{
+    background-image: linear-gradient(to bottom,pink,grey);
+    width: 100%;
+}
+
+
+.r2c1{
+    background-color: white;
+    padding-left:18px;
+    height:400px;
+    width:22%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around; 
+}
+.r2c1-img{
+    width:"240px";
+    height:"100px";
+    background-size: contain;
+    margin-top: 30px;
+}
+.r2c1-offer{
+    width:99%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.r2c1-off{
+    display: flex;
+}
+.offer{
+    color:white;
+    background-color: red;
+}
+.top-deal{
+    color:red;
+    margin-left: 10px;
+}
+.r3c-img,.r4c-img{
+    background-color: white;
+    display:flex;
+    overflow-x: scroll;
+}
+.r3c-img img,.r4c-img img{
+    margin-left: 45px;
+}
+.r3-text,.r4-text{
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
 
 
 
 
+/*          footer        */
 .top{
     color:white;
     background-color: rgb(18, 23, 46);
@@ -275,4 +382,7 @@ body{
 }
 .footer1 h3,.footer2 h3,.footer3 h3,.footer4 h3{
     color:white;
+}
+.footer-links a{
+    margin-bottom: 10px;
 }
